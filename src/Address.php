@@ -1,6 +1,6 @@
 <?php
 
-namespace ctwillie\Usps;
+namespace WebReinvent\Usps;
 
 /**
  * This class gathers data for the 'Verify' api route
