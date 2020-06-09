@@ -10,7 +10,7 @@ from the United States Postal Service. This user ID is required to use this pack
 ### Installation
 
 ```
-composer require ctwillie/laravel-usps
+composer require webreinvent/laravel-usps
 ```
 
 ## Configuration
@@ -51,7 +51,7 @@ The `Address` class handles creating and formatting address data. Pass the const
 Below is an example of creating an address and making an api request for validation.
 
 ```php
-use ctwillie\Usps\Address;
+use WebReinvent\Usps\Address;
 
 $address = new Address([
     'Address2' => '6406 Ivy Lane',
@@ -65,7 +65,7 @@ $response = $address->validate();
 The USPS api supports up to 5 address validations per request. If you need to validate more than one address at a time, pass an array of addresses to the `Address` constructor.
 
 ```php
-use ctwillie\Usps\Address;
+use WebReinvent\Usps\Address;
 
 $address1 = [
     'Address2' => '6406 Ivy Lane',
@@ -99,20 +99,3 @@ $json = $address->validate('json');
 $object = $address->validate('object');
 $string = $address->validate('string');
 ```
-
-## Contributing
-
-Contributions are always welcomed and will receive full credit.
-
-We accept contributions via Pull Requests on Github.
-
-## Authors
-
-* **Cedric Twillie**
-
-See also the list of [contributors](https://github.com/ctwillie/laravel-usps/graphs/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-

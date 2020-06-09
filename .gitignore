@@ -1,3 +1,5 @@
+/.idea
+/.git
 /vendor
 /.vs
 composer.lock

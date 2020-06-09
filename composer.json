@@ -1,30 +1,30 @@
 {
-  "name": "ctwillie/laravel-usps",
+  "name": "webreinvent/laravel-usps",
   "type": "library",
-  "description": "USPS API wrapper for Laravel 6 framework",
+  "description": "USPS API wrapper for Laravel 7 framework",
   "keywords": [
     "laravel",
-    "laravel 6",
+    "laravel 7",
     "laravel usps",
-    "laravel 6 usps",
+    "laravel 7 usps",
     "usps",
     "usps api"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "Cedric Twillie",
-      "email": "ctwillie77@gmail.com"
+      "name": "WebReinvent",
+      "email": "we@webreinvent.com"
     }
   ],
   "require": {
-    "illuminate/support": "^6.4",
+    "illuminate/support": "^7.14.1",
     "spatie/array-to-xml": "^2.11",
-    "guzzlehttp/guzzle": "~6.0"
+    "guzzlehttp/guzzle": "~^6.3"
   },
   "autoload": {
     "psr-4": {
-      "ctwillie\\Usps\\": "src/"
+      "WebReinvent\\Usps\\": "src/"
     }
   },
   "minimum-stability": "dev"

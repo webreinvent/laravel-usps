@@ -1,6 +1,6 @@
 <?php
 
-namespace ctwillie\Usps;
+namespace WebReinvent\Usps;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
