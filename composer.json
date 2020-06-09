@@ -20,7 +20,7 @@
   "require": {
     "illuminate/support": "^7.14.1",
     "spatie/array-to-xml": "^2.11",
-    "guzzlehttp/guzzle": "~^6.3"
+    "guzzlehttp/guzzle": "^6.3"
   },
   "autoload": {
     "psr-4": {
