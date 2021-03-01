@@ -18,9 +18,9 @@
     }
   ],
   "require": {
-    "illuminate/support": "^8.26",
+    "illuminate/support": "^8.12",
     "spatie/array-to-xml": "^2.16",
-    "guzzlehttp/guzzle": "^7.1"
+    "guzzlehttp/guzzle": "^7.2"
   },
   "autoload": {
     "psr-4": {
