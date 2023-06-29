@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "illuminate/support": "^8.12",
+    "illuminate/support": "^8.12 | ^9.0 | ^10.0",
     "spatie/array-to-xml": "^2.16",
     "guzzlehttp/guzzle": "^7.2"
   },
