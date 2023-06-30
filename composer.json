@@ -1,7 +1,7 @@
 {
   "name": "webreinvent/laravel-usps",
   "type": "library",
-  "description": "USPS API wrapper for Laravel 7 framework",
+  "description": "USPS API wrapper for Laravel framework",
   "keywords": [
     "laravel",
     "laravel 7",
