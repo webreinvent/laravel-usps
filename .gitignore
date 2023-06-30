@@ -5,3 +5,4 @@
 composer.lock
 index.php
 dev-notes.txt
+.vscode/
